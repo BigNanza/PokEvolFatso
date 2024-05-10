@@ -13027,7 +13027,7 @@ searchButton.addEventListener('click', () => {
             else if (categories.indexOf(one) == 23 && pokemon[2] == 0) cont = true;
             //else if (categories.indexOf(one) > 23 && categories.indexOf(one) - 23 != pokemon[0]) cont = true;
             else if ((categories.indexOf(one) > 23 && categories.indexOf(one) < 28) && (categories.indexOf(one) - 24 != pokemon[6])) cont = true;
-            else if (categories.indexOf(one) > 27 && categories.indexOf(one) - 23 != pokemon[0]) cont = true;
+            else if (categories.indexOf(one) > 27 && categories.indexOf(one) - 27 != pokemon[0]) cont = true;
         });}
         if (cont) alert("That pokemon is NOT ADEQUATE for the aforementioned requirements!");
             else {
@@ -13074,7 +13074,7 @@ function returnOptimals(cats) {
         else if (categories.indexOf(one) == 23 && pokemon[2] == 0) continue;
         //else if (categories.indexOf(one) > 23 && categories.indexOf(one) - 23 != pokemon[0]) continue;
         else if ((categories.indexOf(one) > 23 && categories.indexOf(one) < 28) && (categories.indexOf(one) - 24 != pokemon[6])) continue;
-        else if (categories.indexOf(one) > 27 && categories.indexOf(one) - 23 != pokemon[0]) continue;
+        else if (categories.indexOf(one) > 27 && categories.indexOf(one) - 27 != pokemon[0]) continue;
         firstRound.push(key);
     }
     one = cats[1];
@@ -13088,7 +13088,7 @@ function returnOptimals(cats) {
         else if (categories.indexOf(one) == 23 && pokemon[2] == 0) continue;
         //else if (categories.indexOf(one) > 23 && categories.indexOf(one) - 23 != pokemon[0]) continue;
         else if ((categories.indexOf(one) > 23 && categories.indexOf(one) < 28) && (categories.indexOf(one) - 24 != pokemon[6])) continue;
-        else if (categories.indexOf(one) > 27 && categories.indexOf(one) - 23 != pokemon[0]) continue;
+        else if (categories.indexOf(one) > 27 && categories.indexOf(one) - 27 != pokemon[0]) continue;
         secondRound.push(key);
     };
     var maxWeight = 0;
